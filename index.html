@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+
+    <div class="circle">
+    </div>
+
+    <header>
+
+        <a href="#" class="brand"><img src="logo (1).png" alt="Starbucks" title="Starbucks"></a>
+        <div class="navigation">
+            <a href="#">home</a>
+            <a href="#">menu</a>
+            <a href="#">what's new</a>
+            <a href="#">contact</a>
+        </div>
+        
+    </header>
+
+    <section class="landing">
+        <div class="info">
+            <h1>it's not just coffe</h1>
+            <h2>it's <span class="hl">starbucks</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit possimus beatae doloribus nihil error aliquam, cum dolores porro soluta omnis fugiat officiis accusamus nam doloremque sint excepturi magni minus?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+        <div class="img">
+            <img src="img1.png" class="product" alt="product-1" title="product-1">
+        </div>
+        <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <section class="products">
+        <ul class="thumb">
+            <li><img src="thumb1.png" alt="thumb1" onclick='product("img1.png");changeColor("#017143")'></li>
+            <li><img src="thumb2.png" alt="thumb2" onclick='product("img2.png");changeColor("#eb7495")'></li>
+            <li><img src="thumb3.png" alt="thumb3" onclick='product("img3.png");changeColor("#d752b1")'></li>
+        </ul>
+    </section>
+
+</body>
+    <script src="script.js"></script>
+</html>
